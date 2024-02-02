@@ -1,0 +1,61 @@
+*{
+
+}
+.contact-parent{
+    background: white;
+    display: flex;
+    margin: 8px 0;
+}
+
+.contact-chilD{
+    display: flex;
+    flex: 1;
+    box-shadow: 0PX 0PX 10PX -2PX rgba(0, 0, 0, 0.75);
+}
+.child1{
+    background: url(IMAGES/images\ \(6\).jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    padding: 100px 0;
+}
+.child2{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.inside-contact{
+    width: 90%;
+    margin: 0 auto;
+}
+.inside-contact h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+.inside-contact h3{
+    text-align: center;
+    font-size: 16px;
+    color: #0085e2;
+}
+.inside-contact input, .inside-contact textarea{
+    width: 100%;
+    background-color: #eee;
+    border: 1px solid rgba(0, 0, 0, 0.48);
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+.inside-contact input[type=submit]{
+    background-color: #000;
+    color: white;
+    transition: 0.2s;
+    border: 2px solid #000;
+    margin: 30px 0;
+}
+.inside-contact input[type=submit]:hover{
+    background-color: white;
+    color: #000;
+    transition: 0.2s;
+}
